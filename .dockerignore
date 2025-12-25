@@ -1,0 +1,43 @@
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Git
+.git/
+.gitignore
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter notebooks (not needed in production)
+notebook/
+*.ipynb
+
+# Build artifacts
+*.egg-info/
+mlproject.egg-info/
+student_performance_prediction.egg-info/
+build/
+dist/
+
+# CatBoost training info
+catboost_info/
+
+# Logs
+logs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Documentation
+README.md
